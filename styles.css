@@ -143,6 +143,7 @@ main { margin: 0 7vw; }
 }
 
 .resource__links li { margin-bottom: 20px; }
+.resource__links ol { list-style: none; }
 
 .social__links li a { 
     display: inline-flex;

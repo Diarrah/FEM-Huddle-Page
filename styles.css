@@ -163,6 +163,7 @@ main { margin: 0 7vw; }
 }
 
 .social__links li i { transform: translateY(25%); }
+.social__links li span { display: none; }
 
 .copyright {
     position: absolute;

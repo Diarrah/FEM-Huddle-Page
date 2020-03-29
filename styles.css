@@ -142,8 +142,10 @@ main { margin: 0 7vw; }
     height: 100px; width: 100%;
 }
 
-.resource__links li { margin-bottom: 20px; }
-.resource__links ol { list-style: none; }
+.resource__links li { 
+    margin-bottom: 20px;
+    list-style: none;
+}
 
 .social__links li a { 
     display: inline-flex;

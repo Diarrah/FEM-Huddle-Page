@@ -112,17 +112,14 @@ main { margin: 0 7vw; }
     margin-bottom: 30px;
 }
 
-.huddle__info {
-    display: grid;
-    grid-template-columns: 35px 1fr;
-    grid-template-rows: repeat(3, auto);
-    height: 180px;
+.huddle__info small {
+    position: relative;
+    right: -40px; top: -23px;  
 }
 
-.info__icons { 
-    grid-column: 1 / 2;
-    transform: scale(.9); 
-}
+.info__icons { transform: scale(.8); }
+
+.info__icons:last-child { margin-bottom: 0; }
 
 .resource__links, 
 .social__links {
